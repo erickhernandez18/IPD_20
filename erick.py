@@ -22,5 +22,5 @@ def move(my_history, their_history, my_score, their_score, my_move, their_move):
   if my_b < their_b:
     if my_score < their_score:
           return 'b'
-        else:
+        else:my_sscore > their_score
             return 'c' 
