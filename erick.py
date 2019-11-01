@@ -10,14 +10,14 @@ team_name = 'erick'
 strategy_name = 'Stay Ahead'
 strategy_description = 'Always betray unless ahead'
 
-def move(my_history, their_history, my_score, their score):
+def move(my_history, their_history, my_score, their_score, my_move, their_move):
   my_b = 0 
   their_b = 0
   for my_move in my_history:
     if my_move == 'b':
       my_b += 1 
   for their_move in their_history:
-    if their move == 'b':
+    if their_move == 'b':
       their_b +=1
   if my_b < their_b:
     if my_score < their_score:
